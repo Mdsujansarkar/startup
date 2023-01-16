@@ -1,7 +1,7 @@
 <nav class="border-b">
     <div x-data="{showMenu : false}" class="container max-w-screen-lg mx-auto flex justify-between h-14">
         <!-- Brand-->
-        <a href="#" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
+        <a href="" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
             <!-- Logo-->
             <div class="rounded bg-purple-400 text-white font-bold w-10 h-10 flex justify-center text-3xl pt-0.5">P</div>
             <div class="text-gray-700 font-semibold ml-2">My PodCast</div>
