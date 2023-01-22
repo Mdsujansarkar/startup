@@ -1,31 +1,29 @@
 <?php
-
-namespace App\Console\Commands;
+declare(strict_types=1);
+namespace Castr\Domains\Catalog\Console\Commands;
 
 use Illuminate\Console\Command;
 
 class FatchPodcastFeed extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'command:name';
+    protected $commands = [
+        FatchPodcastFeed::class,
+    ];
+    protected $signature = 'podcast:fetch {url}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Fetch the Feed prodcast';
 
     /**
      * Execute the console command.
      *
      * @return int
      */
-    public function handle()
+    public function handle(): int
     {
         return Command::SUCCESS;
     }
